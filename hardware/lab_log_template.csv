@@ -1,0 +1,1 @@
+file,date,time,operator,cable_type,cable_id,cable_length_m,length_meas_1_m,length_meas_2_m,length_meas_3_m,termination,fault_kind,fault_position_m,zl_ohm,discontinuity_desc,channel,gen_model,gen_waveform,gen_amplitude_v,gen_period_s,gen_load_setting,scope_model,scope_input_impedance,scope_bw_limit,sample_interval_s,averaging,repeat_idx,notes
