@@ -1,0 +1,31 @@
+[project]
+name = "report"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ankit07chy", email = "ankit07chy@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "plotly>=5.24",
+    "pytest>=8.0",
+    "pyusb>=1.2",
+    "pyvisa>=1.14",
+    "pyvisa-py>=0.7",
+    "schemdraw>=0.19",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+    "streamlit>=1.40",
+]
+
+[project.scripts]
+report = "report:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
