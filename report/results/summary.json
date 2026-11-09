@@ -1,0 +1,29 @@
+{
+  "created": "2026-11-06 04:50",
+  "quick": false,
+  "models": [
+    "RF-A",
+    "RF-B",
+    "ET-A",
+    "ET-B",
+    "KNN-A",
+    "KNN-B",
+    "MLP-A",
+    "MLP-B",
+    "CNN-A"
+  ],
+  "e3_e4_data": "PROXY (sim + artifacts)",
+  "n_finetune": 149,
+  "n_lab_test": 1351,
+  "best_regressor": "ET-B",
+  "best_classifier": "CNN-A",
+  "plot_keys": [
+    "Baseline",
+    "RF-B",
+    "ET-B",
+    "KNN-A",
+    "MLP-B",
+    "CNN-A"
+  ],
+  "runtime_s": 1853
+}

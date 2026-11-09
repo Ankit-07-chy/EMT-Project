@@ -1,0 +1,25 @@
+method,kind,factor,level,n,rate
+Baseline,miss rate (fault called matched),|Gamma|,0.1-0.3,426,0.5610328638497653
+Baseline,miss rate (fault called matched),|Gamma|,0.3-0.6,755,0.24900662251655628
+Baseline,miss rate (fault called matched),|Gamma|,<0.1,95,0.8736842105263158
+Baseline,miss rate (fault called matched),|Gamma|,>=0.6,3237,0.056533827618164965
+Baseline,miss rate (fault called matched),SNR (dB),10-15,802,0.40399002493765584
+Baseline,miss rate (fault called matched),SNR (dB),15-20,741,0.22672064777327935
+Baseline,miss rate (fault called matched),SNR (dB),20-30,1484,0.10040431266846361
+Baseline,miss rate (fault called matched),SNR (dB),30-40,1486,0.034993270524899055
+Baseline,false-alarm rate (matched called fault),SNR (dB),10-15,248,0.016129032258064516
+Baseline,false-alarm rate (matched called fault),SNR (dB),15-20,255,0.00784313725490196
+Baseline,false-alarm rate (matched called fault),SNR (dB),20-30,507,0.02564102564102564
+Baseline,false-alarm rate (matched called fault),SNR (dB),30-40,477,0.006289308176100629
+CNN-A,miss rate (fault called matched),|Gamma|,0.1-0.3,426,0.04225352112676056
+CNN-A,miss rate (fault called matched),|Gamma|,0.3-0.6,755,0.0423841059602649
+CNN-A,miss rate (fault called matched),|Gamma|,<0.1,95,0.3368421052631579
+CNN-A,miss rate (fault called matched),|Gamma|,>=0.6,3237,0.0006178560395427865
+CNN-A,miss rate (fault called matched),SNR (dB),10-15,802,0.05486284289276808
+CNN-A,miss rate (fault called matched),SNR (dB),15-20,741,0.024291497975708502
+CNN-A,miss rate (fault called matched),SNR (dB),20-30,1484,0.011455525606469003
+CNN-A,miss rate (fault called matched),SNR (dB),30-40,1486,0.0033647375504710633
+CNN-A,false-alarm rate (matched called fault),SNR (dB),10-15,248,0.05241935483870968
+CNN-A,false-alarm rate (matched called fault),SNR (dB),15-20,255,0.00784313725490196
+CNN-A,false-alarm rate (matched called fault),SNR (dB),20-30,507,0.005917159763313609
+CNN-A,false-alarm rate (matched called fault),SNR (dB),30-40,477,0.0

@@ -1,0 +1,61 @@
+task,method,algo,params,val_score,metric,fit_s
+reg,A,RF,"{'max_features': 'sqrt', 'min_samples_leaf': 2}",4.78927217039452,MAE_dt_ns,5.340617418289185
+reg,A,RF,"{'max_features': 'sqrt', 'min_samples_leaf': 5}",5.006423319872212,MAE_dt_ns,4.2761313915252686
+reg,A,RF,"{'max_features': 0.3, 'min_samples_leaf': 2}",5.062991449597923,MAE_dt_ns,19.55486249923706
+reg,A,RF,"{'max_features': 0.3, 'min_samples_leaf': 5}",5.136568993452147,MAE_dt_ns,18.7964084148407
+reg,A,RF,"{'max_features': 'sqrt', 'min_samples_leaf': 2}",4.78927217039452,SELECTED,0.0
+reg,A,ET,"{'max_features': 'sqrt', 'min_samples_leaf': 2}",4.278885223444684,MAE_dt_ns,1.6279568672180176
+reg,A,ET,"{'max_features': 'sqrt', 'min_samples_leaf': 5}",4.852260486646486,MAE_dt_ns,1.2854831218719482
+reg,A,ET,"{'max_features': 0.3, 'min_samples_leaf': 2}",4.017541534659933,MAE_dt_ns,5.422424077987671
+reg,A,ET,"{'max_features': 0.3, 'min_samples_leaf': 5}",4.341902310178578,MAE_dt_ns,4.203225612640381
+reg,A,ET,"{'max_features': 0.3, 'min_samples_leaf': 2}",4.017541534659933,SELECTED,0.0
+reg,A,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",4.126054221120936,MAE_dt_ns,0.7454929351806641
+reg,A,KNN,"{'n_neighbors': 15, 'weights': 'distance'}",4.3279560977490865,MAE_dt_ns,0.599837064743042
+reg,A,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",4.126054221120936,SELECTED,0.0
+reg,A,MLP,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}",5.1038846854028925,MAE_dt_ns,43.11056995391846
+reg,A,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",3.8231520283296123,MAE_dt_ns,168.77134251594543
+reg,A,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",3.8231520283296123,SELECTED,0.0
+reg,A,CNN,"{'epochs': 40, 'patience': 6}",2.6385233861570345,MAE_dt_ns,661.6572315692902
+reg,A,CNN,"{'epochs': 40, 'patience': 6}",2.6385233861570345,SELECTED,0.0
+reg,B,RF,"{'max_features': 0.5, 'min_samples_leaf': 2}",2.7762633883325334,MAE_dt_ns,2.748647451400757
+reg,B,RF,"{'max_features': 0.5, 'min_samples_leaf': 5}",2.9236248396568483,MAE_dt_ns,2.159451961517334
+reg,B,RF,"{'max_features': 1.0, 'min_samples_leaf': 2}",2.826770989663784,MAE_dt_ns,4.504483699798584
+reg,B,RF,"{'max_features': 1.0, 'min_samples_leaf': 5}",2.938732977038046,MAE_dt_ns,3.824384927749634
+reg,B,RF,"{'max_features': 0.5, 'min_samples_leaf': 2}",2.7762633883325334,SELECTED,0.0
+reg,B,ET,"{'max_features': 0.5, 'min_samples_leaf': 2}",2.8068005875752338,MAE_dt_ns,0.9925475120544434
+reg,B,ET,"{'max_features': 0.5, 'min_samples_leaf': 5}",3.216367947787227,MAE_dt_ns,0.7648653984069824
+reg,B,ET,"{'max_features': 1.0, 'min_samples_leaf': 2}",2.780621765391584,MAE_dt_ns,1.6596484184265137
+reg,B,ET,"{'max_features': 1.0, 'min_samples_leaf': 5}",2.940682237449242,MAE_dt_ns,1.1953110694885254
+reg,B,ET,"{'max_features': 1.0, 'min_samples_leaf': 2}",2.780621765391584,SELECTED,0.0
+reg,B,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",7.506240064667604,MAE_dt_ns,0.141371488571167
+reg,B,KNN,"{'n_neighbors': 15, 'weights': 'distance'}",7.464698252075934,MAE_dt_ns,0.16147732734680176
+reg,B,KNN,"{'n_neighbors': 15, 'weights': 'distance'}",7.464698252075934,SELECTED,0.0
+reg,B,MLP,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}",4.7529796065089505,MAE_dt_ns,12.567147731781006
+reg,B,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",5.086667966784443,MAE_dt_ns,17.461922645568848
+reg,B,MLP,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}",4.7529796065089505,SELECTED,0.0
+cls,A,RF,"{'max_features': 'sqrt', 'min_samples_leaf': 1}",0.9665211154560113,macro_F1,7.400246620178223
+cls,A,RF,"{'max_features': 0.3, 'min_samples_leaf': 1}",0.9673003442015479,macro_F1,32.29529523849487
+cls,A,RF,"{'max_features': 0.3, 'min_samples_leaf': 1}",0.9673003442015479,SELECTED,0.0
+cls,A,ET,"{'max_features': 'sqrt', 'min_samples_leaf': 1}",0.9683225386309287,macro_F1,1.6483328342437744
+cls,A,ET,"{'max_features': 0.3, 'min_samples_leaf': 1}",0.9677626775081949,macro_F1,6.143913745880127
+cls,A,ET,"{'max_features': 'sqrt', 'min_samples_leaf': 1}",0.9683225386309287,SELECTED,0.0
+cls,A,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",0.9510208483369628,macro_F1,0.9555337429046631
+cls,A,KNN,"{'n_neighbors': 15, 'weights': 'distance'}",0.944446450134756,macro_F1,0.9769656658172607
+cls,A,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",0.9510208483369628,SELECTED,0.0
+cls,A,MLP,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}",0.9696893336424195,macro_F1,12.929984092712402
+cls,A,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",0.9742108692325363,macro_F1,21.267716646194458
+cls,A,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",0.9742108692325363,SELECTED,0.0
+cls,A,CNN,"{'epochs': 40, 'patience': 6}",0.9850817817214208,macro_F1,1436.5858969688416
+cls,A,CNN,"{'epochs': 40, 'patience': 6}",0.9850817817214208,SELECTED,0.0
+cls,B,RF,"{'max_features': 'sqrt', 'min_samples_leaf': 1}",0.9775044041636083,macro_F1,1.3011598587036133
+cls,B,RF,"{'max_features': 0.5, 'min_samples_leaf': 1}",0.9790201182436327,macro_F1,2.2348337173461914
+cls,B,RF,"{'max_features': 0.5, 'min_samples_leaf': 1}",0.9790201182436327,SELECTED,0.0
+cls,B,ET,"{'max_features': 'sqrt', 'min_samples_leaf': 1}",0.976486295741237,macro_F1,1.4088504314422607
+cls,B,ET,"{'max_features': 0.5, 'min_samples_leaf': 1}",0.9790041371725271,macro_F1,2.095999240875244
+cls,B,ET,"{'max_features': 0.5, 'min_samples_leaf': 1}",0.9790041371725271,SELECTED,0.0
+cls,B,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",0.9527285964775487,macro_F1,1.1176669597625732
+cls,B,KNN,"{'n_neighbors': 15, 'weights': 'distance'}",0.9462431693056697,macro_F1,1.2736763954162598
+cls,B,KNN,"{'n_neighbors': 5, 'weights': 'distance'}",0.9527285964775487,SELECTED,0.0
+cls,B,MLP,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.0001}",0.9691311846996887,macro_F1,29.684566736221313
+cls,B,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",0.9708824560515865,macro_F1,42.46638345718384
+cls,B,MLP,"{'hidden_layer_sizes': (256, 128), 'alpha': 0.0001}",0.9708824560515865,SELECTED,0.0
